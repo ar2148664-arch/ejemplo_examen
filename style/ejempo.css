@@ -1,0 +1,65 @@
+/* ======== Estilos generales ======== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #333;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* ======== Encabezado ======== */
+h1 {
+    text-align: center;
+    color: #b34d4d;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #f3d1d1;
+}
+
+/* ======== Párrafos ======== */
+p {
+    background-color: #ffeaea;
+    border-left: 5px solid #b34d4d;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto 30px;
+    font-size: 1.1em;
+}
+
+/* ======== Tabla ======== */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Primera columna (etiquetas) */
+td:first-child {
+    font-weight: bold;
+    color: #b34d4d;
+}
+
+/* Última fila (quita borde) */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* ======== Pequeño efecto al pasar el mouse ======== */
+tr:hover {
+    background-color: #ffeaea;
+    transition: background-color 0.3s ease;
+}
